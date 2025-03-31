@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style> 
+        body {
+            background: rgb(202, 96, 96);
+            color: rgb(218, 218, 218);
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1> Iniciando estudos DOM </h1>
+    <p> Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>Dom</strong> em JavaScrit. </p> <!-- Dom: Document Object Model -->
+    <!-- <div> Clique em mim</div> (Em comentario por funcinar ate o 5 comentarios)-->
+    <!-- <div id="msg">Clique em mim</div> -->
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body 
+        var p1 = window.document.getElementsByTagName('p')[1] //por marca
+         //   window.document.write('Está escrito assim: ' + p1.innerText)
+         //corpo.style.background = 'Black'
+        // p1.style.color = 'Blue'
+
+        //document.write(p1.innerHTML)
+        //window.alert(p1.innerText) (até aqui)
+//
+       // var d = window.document.getElementById('msg')
+      //  d.style.background = 'pink'
+     //   d.innerText = 'estou aguardando...' (versão simplificada)
+       // window.document.getElementById('msg').innerText = 'Olá!' (comando certo)
+      // var d = window.document.getElementsByClassName('msg')[0]
+     //  d.innerText = 'Olá!'
+     var d = window.document.querySelector('div#msg')
+     //CSS é ID com # e com class é .
+     d.style.backgroud = 'white'
+    </script>
+</body>
+</html> 

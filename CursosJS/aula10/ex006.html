@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 25pt Arial bold;
+            background: rgba(90, 19, 172, 0.795);
+            color: rgb(234, 200, 243);
+            width: 200px;
+            height: 150px;
+            line-height: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> 
+        Interaja...
+    </div>
+
+    <script>
+        var a =window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        function clicar(){
+            //var a =window.document.getElementById('area') (só dentro da função quando eu quiser ser especifica)
+           a.innerText = 'Clicou!' 
+           a.style.background = 'rgb(44, 77, 167)'
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+            a.style.background = 'rgba(90, 19, 172, 0.795)'
+        }
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'pink'
+            a.style.color = 'black'
+        }
+    </script>
+</body>
+</html>
