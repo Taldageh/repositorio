@@ -14,9 +14,9 @@ section {
     background: white;
     border-radius: 10px;
     padding: 25px;
-    width: 520;
+    width: 500px;
     margin: auto;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.397);
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.397);
 }
 
 footer {
