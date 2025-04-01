@@ -1,0 +1,17 @@
+@charset "UTF-8"; /* regras é o @ */
+
+body {
+    background-color: rgb(182, 239, 241);
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 20px;
+}
+h1 {
+    color: azure;
+    background-color:  rgb(155, 127, 184);
+}
+h2 {
+    color: rgb(185, 151, 218);
+}
+p {
+    text-align: justify;
+}
