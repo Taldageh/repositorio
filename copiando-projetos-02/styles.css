@@ -100,7 +100,7 @@ section {
                     color: black;
                     cursor: pointer;
                     font-weight: bold;
-                    font-family: "League Gothic", sans-serif;
+                    z-index: 10;
                 }
             }
      
@@ -179,6 +179,18 @@ section {
             & .active {
                 background-color: #ffffff;
             }
+        }
+    }
+}
+
+section {
+    & .list{
+
+        & .item { 
+            transform: transition(100wv);
+        }
+        &.car-img {
+            &.car-img
         }
     }
 }
