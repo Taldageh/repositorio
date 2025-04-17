@@ -184,13 +184,24 @@ section {
 }
 
 section {
+
     & .list{
 
         & .item { 
-            transform: transition(100wv);
-        }
-        &.car-img {
-            &.car-img
+
+            transform: translateX(100wv);
+            transition: 0.5s;
+
+            &.car-img {
+
+                & img{
+                }
+
+            }
+        
+            & .content {
+
+            }
         }
     }
 }
