@@ -158,10 +158,11 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: end;
-        gap: 25px;
+        gap: 15px;
 
         & .number {
             font-size: 5em;
+            font-family: "League Gothic", sans-serif;
         }
 
         & ul {
@@ -192,11 +193,13 @@ section {
             transform: translateX(100wv);
             transition: 0.5s;
 
-            &.car-img {
-
+            & .car-img {
+                        
                 & img{
                 }
-
+                transform: rotate(0);
+                transition: 0.5s;
+                transition: 0.3s;
             }
         
             & .content {
