@@ -190,9 +190,9 @@ section {
 
         & .item { 
 
-            transform: translateX(100wv);
+            transform: translateX(100vw);
             transition: 0.5s;
-            opacity: 0;
+            opacity: 1;
 
             & .car-img {
                         
@@ -230,7 +230,7 @@ section {
         & .active {
             transform: translateX(0);
             transition: 0.5s;
-            opacity: 0;
+            opacity: 1;
 
             & .car-img {
              
@@ -241,7 +241,7 @@ section {
 
             & .content {
     
-                & .car-information, .h2 .description, .information{
+                & .car-information, h2 .description, .information{
                     transform: translateX(0);
                     opacity: 1;
                 }
