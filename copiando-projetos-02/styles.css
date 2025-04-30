@@ -17,7 +17,7 @@ header {
     position: fixed;
     width: 80vw;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 600px;
@@ -101,6 +101,7 @@ section {
                     color: black;
                     cursor: pointer;
                     font-weight: bold;
+                    font-family: "League Gothic", sans-serif;
                     z-index: 10;
                 }
             }
@@ -193,7 +194,6 @@ section {
     & .list {
 
         & .item {
-
             transform: translateX(100vw);
             transition: 0.5s;
             opacity: 0;
@@ -209,13 +209,12 @@ section {
 
             & .content {
 
-                & .car-information,
+                & .car-information, h2,
                 .description,
                 .information {
                     transform: translateX(200px);
                     transition: 0.7s;
                     transition-delay: 0.3s;
-                    opacity: 0;
                 }
 
                 & .h2 {
@@ -235,29 +234,13 @@ section {
 
             }
 
-            & .active {
-                transform: translateX(0);
-                transition: 0.5s;
-                opacity: 1;
+        & .active {
+          transform: translateX(0);
+          transition: 0.5s;
+          opacity: 1;
 
-                & .car-img {
+          }
 
-                    & img {
-                        transform: rotate(-20deg);
-                    }
-                }
-
-                & .content {
-
-                    & .car-information,
-                    h2 .description,
-                    .information {
-                        transform: translateX(0);
-                        opacity: 1;
-                    }
-                }
-
-            }
+         }
         }
     }
-}
