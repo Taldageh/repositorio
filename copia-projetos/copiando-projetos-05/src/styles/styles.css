@@ -11,7 +11,7 @@ body {
     background-color: #fff9ea;
 }
 
-.btn-default {
+.btn_default {
     border: none;
     display: flex;
     align-items: center;
@@ -25,6 +25,6 @@ body {
     transition: background-color .3s ease;
 }
 
-.btn-default:hover {
+.btn_default:hover {
     background-color: #f8d477;
 }
