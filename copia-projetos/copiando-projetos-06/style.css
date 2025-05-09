@@ -10,7 +10,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(#a79bbd, #4e1010);
+    background-image: radial-gradient(#a79bbd, #101e4e);
     background-size: cover;
 }
 
@@ -21,7 +21,7 @@ body {
     padding: 28px;
     margin: 0 28px;
     border-radius: 10px;
-    box-shadow: inset -2px 2px 2px #ffff;
+    box-shadow: inset -2px 2px 2px #ffffff;
 }
 
 .form_title{
@@ -53,7 +53,7 @@ body {
 
 .user_input_box label {
     width: 95%;
-    color: #ffff;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     margin: 5px 0;
@@ -64,7 +64,7 @@ body {
     width: 95%;
     border-radius: 7px;
     outline: none;
-    border: 1px solid grey;
+    border: 1px solid rgb(51, 46, 121);
     padding: 0 10px;
 }
 
@@ -77,12 +77,12 @@ body {
     border: none;
     border-radius: 3px;
     color: rgb(209, 209, 209);
-    background: rgba(145, 55, 55, 0.7);
+    background: rgba(124, 117, 218, 0.699);
     cursor: pointer;
 }
 
 .form_submit_btn input:hover{
-    background: rgba(150, 87, 87, 0.753);
+    background: rgba(124, 103, 202, 0.911);
     color: rgb(255, 255, 255);
 }
 
