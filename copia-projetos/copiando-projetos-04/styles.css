@@ -202,8 +202,8 @@ header nav ul li:hover::after {
     color: #000;
     font-size: 1rem;
     font-weight: 600;
-    cursor: pointer;
     border: none;
+    cursor: pointer;
 }
 
 .btn:hover {
