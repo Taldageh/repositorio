@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('footer.css');
+@import url('header.css');
+@import url('menu.css');
+@import url('home.css');
+@import url('styles.css');
+@import url('testimonials.css');
+
+:root {
+    --color-primary-1: #fff9ea;
+    --color-primary-2: #ffe8b4;
+    --color-primary-3: #e9a209;
+    --color-primary-4: #ffe100;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #f8d477;
+
+    --color-primary-7: rgba(0, 0, 0, 0.1);
+
+    --color-neutral-1: #1d1d1d;
+    --color-neutral-2: #434343;
+    --color-neutral-3: #ffff;
+
+}
+
 
 * {
     font-family: "Poppins", sans-serif;
@@ -8,7 +31,7 @@
 }
 
 body {
-    background-color: #fff9ea;
+    background-color: var(--color-primary-1);
 }
 
 section {
@@ -20,17 +43,17 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: var(--color-primary-5);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 2px var(--color-primary-7);
     cursor: pointer;
     transition: background-color .3s ease;
 }
 
 .btn_default:hover {
-    background-color: #f8d477;
+    background-color: var(--color-primary-6);
 }
 
 .social_media_buttons {
@@ -44,22 +67,22 @@ section {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: #ffffff;
+    background-color: var(--color-neutral-3);
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
     color: #1d1d1d;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 4px var(--color-primary-7);
     transition: box-shadow .3s ease;
 }
 
 .social_media_buttons a:hover {
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 8px var(--color-primary-7);
 }
 
 
 .section_title {
-    color: #e9a209;
+    color: var(--color-primary-3);
     font-size: 1.563rem;
 }
 

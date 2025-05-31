@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo com jQuery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f2f2f2;
+      transition: background-color 0.5s;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      margin: 10px 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    input {
+      padding: 8px;
+      margin-right: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .texto-tarefa {
+      flex-grow: 1;
+    }
+
+    .fundo-alternativo {
+      background-color: #abdbf3;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Site de Treino com jQuery</h1>
+
+    <button id="toggleTexto">Mostrar/Ocultar Texto</button>
+    <p id="texto" style="display:none;">Este é um texto que pode ser mostrado ou escondido.</p>
+
+    <button id="mudarCor">Mudar Cor de Fundo</button>
+
+    <h2>Lista de Tarefas</h2>
+    <input type="text" id="novaTarefa" placeholder="Digite uma tarefa...">
+    <button id="adicionarTarefa">Adicionar</button>
+    <ul id="listaTarefas"></ul>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      // Mostrar/Ocultar texto
+      $("#toggleTexto").click(function() {
+        $("#texto").slideToggle();
+      });
+
+      // Mudar cor de fundo
+      $("#mudarCor").click(function() {
+        $("body").toggleClass("fundo-alternativo");
+      });
+
+      // Adicionar tarefa
+      $("#adicionarTarefa").click(function() {
+        var tarefa = $("#novaTarefa").val();
+        if (tarefa !== "") {
+          const item = `
+            <li>
+              <span class="texto-tarefa">${tarefa}</span>
+              <button class="editar">✏️</button>
+              <button class="excluir">❌</button>
+            </li>`;
+          $("#listaTarefas").append(item);
+          $("#novaTarefa").val("");
+        }
+      });
+
+      // Excluir tarefa
+      $("#listaTarefas").on("click", ".excluir", function() {
+        $(this).parent().remove();
+      });
+
+      // Editar tarefa
+      $("#listaTarefas").on("click", ".editar", function() {
+        var li = $(this).parent();
+        var span = li.find(".texto-tarefa");
+        var textoAtual = span.text();
+        var novoTexto = prompt("Editar tarefa:", textoAtual);
+        if (novoTexto !== null && novoTexto.trim() !== "") {
+          span.text(novoTexto);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
