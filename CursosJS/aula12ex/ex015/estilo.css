@@ -1,0 +1,59 @@
+body {
+    background: rgb(97, 28, 28);
+    font: normal 20pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#foto{ 
+    width: 250px;  
+    height: 250px;
+    border-radius: 20%;
+    margin: auto;
+    padding-top: 15px;
+    }
+
+#Verifica {
+    background: rgb(133, 40, 40);
+    color: white;
+    font: normal 20pt Arial;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#Verifica:hover {
+    background: rgb(134, 58, 58);
+}
+
+#formulario {
+    text-align: center;
+}
+
+#Caixinha {
+    width: 120px;
+    height: 30px;
+    font: normal 20pt Arial;
+    border-radius: 10px;
+    text-align: center;
+}
