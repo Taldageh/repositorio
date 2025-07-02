@@ -14,19 +14,19 @@ function Verificar() {
         img.setAttribute('id', 'foto') // define o id do elemento de imagem
         if (fsex[0].checked) {
             genero = 'Homem'
-            if (idade >=0 && idade < 5) {
+            if (idade >=0 && idade <= 5) {
                 //bebe
                 img.setAttribute('src', 'foto-bebe-m.png')
-                } else if (idade < 12){
+                } else if (idade <= 12){
                 //criança
                 img.setAttribute('src', 'foto-crianca-m.png')
-            } else if (idade < 15){
+            } else if (idade <= 15){
                 //pre-adolescente
                 img.setAttribute('src', 'foto-pre-adolescente-m.png')
-                } else if (idade < 21){
+                } else if (idade <= 21){
                 //jovem
                 img.setAttribute('src', 'foto-adolescente-m.png')
-            } else if (idade < 50) {
+            } else if (idade <= 50) {
                 //Adulto
                 img.setAttribute('src', 'foto-adulto-m.png')
             } else {
@@ -35,19 +35,19 @@ function Verificar() {
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
-             if (idade >=0 && idade < 5) {
+             if (idade >=0 && idade <= 5) {
                 //bebe
-                img.setAttribute('src', 'foto-bebe-m.png')
-                } else if (idade < 12){
+                img.setAttribute('src', 'foto-bebe-f.png')
+                } else if (idade <= 12){
                 //criança
                 img.setAttribute('src', 'foto-crianca-f.png')
-                 } else if (idade < 15){
+                 } else if (idade <= 15){
                 //pre-adolescente
                 img.setAttribute('src', 'foto-pre-adolescente-f.png')
-            } else if (idade < 21){
+            } else if (idade <= 21){
                 //jovem
                 img.setAttribute('src', 'foto-adolescente-f.png')
-            } else if (idade < 50) {
+            } else if (idade <= 50) {
                 //Adulto
                 img.setAttribute('src', 'foto-adulto-f.png')
             } else {
