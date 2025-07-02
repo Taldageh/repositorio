@@ -43,14 +43,14 @@ footer {
 }
 
 #Verifica:hover {
-    background: rgb(134, 58, 58);
+    background: rgb(134, 64, 64);
 }
 
 #formulario {
     text-align: center;
 }
 
-#Caixinha {
+#txtano {
     width: 120px;
     height: 30px;
     font: normal 20pt Arial;
