@@ -1,7 +1,7 @@
 import java.util.Scanner; //importando a classe(Blibioteca) Scanner
 
 
-public /*aberto para todos*/ class MyClass {
+public /*aberto para todos*/ class MyClass/*nome do arquivo*/ {
   public static /*para não criar um objeto*/ void /*só executa o que tem dentro*/ main(String args[])/*forma de receber informações*/ {
     Scanner entrada = new Scanner(System.in); //criando um objeto chamado entrada da classe Scanner
     //System.in = entrada de dados do sistema (teclado)
