@@ -7,12 +7,12 @@
 @import url('testimonials.css');
 
 :root {
-    --color-primary-1: #fff9ea;
-    --color-primary-2: #ffe8b4;
-    --color-primary-3: #e9a209;
-    --color-primary-4: #ffe100;
-    --color-primary-5: #ffcb45;
-    --color-primary-6: #f8d477;
+    --color-primary-1: #f8ebfa;
+    --color-primary-2: #ceb4ff;
+    --color-primary-3: #a209e9;
+    --color-primary-4: #cc00ff;
+    --color-primary-5: #9645ff;
+    --color-primary-6: #f877c7;
 
     --color-primary-7: rgba(0, 0, 0, 0.1);
 
@@ -28,10 +28,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
