@@ -16,6 +16,4 @@ System.out.print("Digite o raio da lata (cm): ");
 
     sc.close();
 }
-
-sun.security.timestamp
 }
