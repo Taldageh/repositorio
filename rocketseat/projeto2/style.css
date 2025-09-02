@@ -1,0 +1,29 @@
+* {
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 16px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h5 {
+    color: #E1624F;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 16px;
+}
+
+.Inicio.h1 {
+    gap: 8px;
+    width: 1120px;
+    height: 79px;
+    opacity: 100%;
+}
+
+#container {
+    gap: 40px;
+    width: 1120px;
+    height: 3054px;
+    opacity: 100%;
+}
