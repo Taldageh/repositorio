@@ -1,9 +1,14 @@
+*{
+margin: 0;
+padding: 0; 
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(./bg-image.png);
+    background-image: url(./assets/bg-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 1280px;
@@ -15,6 +20,8 @@ body {
 
 }
 
+/* :root aplicaria em tudo */
+
 
 
 .container {
@@ -24,7 +31,7 @@ body {
     gap: 24px;
     padding: 24px 24px;
     border-radius: 24px;
-    margin: 48px auto;
+    margin: 48px auto 28px;
     box-sizing: border-box;
 }
 
@@ -38,9 +45,10 @@ body {
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 140%;
+    line-height: 150%;
     font-size: 40px;
-
+    color: #291B1A;
+    margin-bottom: 4px;
 }
 
 #titleIn {
@@ -50,7 +58,8 @@ body {
     font-style: normal;
     line-height: 150%;
     font-size: 24px;
-
+    color: #291B1A;
+    margin-bottom: 4px;
 }
 
 #titlePrep {
@@ -59,6 +68,8 @@ body {
     font-style: normal;
     line-height: 150%;
     font-size: 24px;
+    color: #291B1A;
+    margin-bottom: 4px;
 }
 
 .textinho {
@@ -67,6 +78,7 @@ body {
     font-style: normal;
     line-height: 150%;
     font-size: 16px;
+    color: #573824;
 }
 
 .listinha {
@@ -75,10 +87,31 @@ body {
     font-style: normal;
     line-height: 150%;
     font-size: 16px;
+    color: #573824;
+}
+
+
+main{ 
+    padding: 24px;
+    }
+
+#about p + p {
+    margin-top: 12px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+ul {
+    padding-left: 24px;
 }
 
 footer {
     color: #F0E8C2;
     text-align: center;
     padding-bottom: 48px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
 }
