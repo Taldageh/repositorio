@@ -1,5 +1,13 @@
+.reference {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 footer {
     display: flex;
+    padding-inline: 32px;
+    width: 1280px;
     gap: 24px;
     padding-block: 24px;
 }
