@@ -1,4 +1,4 @@
-package java.resumo;
+package resumo; // Declara o pacote onde a classe está localizada
 // SWITCH-CASE + FOR + IF-ELSE + DO-WHILE
 import java.util.Scanner;  // Importa Scanner para entrada de dados
 

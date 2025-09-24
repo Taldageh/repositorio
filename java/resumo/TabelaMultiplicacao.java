@@ -1,5 +1,4 @@
-package java.resumo;
-
+package resumo; // Declara o pacote onde a classe está localizada
 import java.util.Scanner; // Importa a classe Scanner para ler dados do teclado
 
 public class TabelaMultiplicacao {

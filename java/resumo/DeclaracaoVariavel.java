@@ -1,4 +1,4 @@
-package java.resumo;
+package resumo; // Declara o pacote onde a classe está localizada
 
 public class DeclaracaoVariavel {
     public static void main(String[] args) {

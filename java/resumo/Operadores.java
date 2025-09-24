@@ -1,4 +1,4 @@
-package java.resumo;
+package resumo; // Declara o pacote onde a classe está localizada
 
 /*
  * Categoria	Operador		Significado

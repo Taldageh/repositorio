@@ -1,4 +1,5 @@
-package java.resumo;
+package resumo; // Declara o pacote onde a classe está localizada
+// Senha com limite de tentativas
 // DO-WHILE + IF-ELSE
 import java.util.Scanner;  // Importa Scanner para ler do teclado
 
