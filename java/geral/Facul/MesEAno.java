@@ -1,4 +1,4 @@
-package Facul;
+package geral.Facul;
 
 public class MesEAno {
     public static void main(String[] args) {

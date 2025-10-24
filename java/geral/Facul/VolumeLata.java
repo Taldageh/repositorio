@@ -1,4 +1,4 @@
-package Facul;
+package geral.Facul;
 import java.util.Scanner;
 
 public class VolumeLata {
