@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #105297;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar h3 {
+    margin: 0;
+    color: white;
+}
+
+.navbar img {
+    color: white;
+    height: 20px;
+    width: 30px;
+    margin-left: 10px;
+}

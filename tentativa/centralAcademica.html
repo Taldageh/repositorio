@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../telerik_v2/styles/kendo.common.min.css">
+<link rel="stylesheet" href="../telerik_v2/styles/kendo.default-v2.min.css">
+<link rel="stylesheet" href="src/style/principal.css">
+
+    <title>CENTRAL DE ATENDIMENTO</title>
+</head>
+<script src="../telerik_v2/js/jquery.min.js"></script>
+<script src="../telerik_v2/js/kendo.all.min.js"></script>
+<script src="src/js/app.js"></script>
+<body>
+<header>
+    
+        <nav class="navbar">
+            <img src="/tentativa/src/img/barra.png" alt="barra de navegação">
+            <h3>CENTRAL ACEDÊMICA</h3>
+                    <img src="/tentativa/src/img/pontoS.png" alt="ponto de navegação">
+        </nav>
+</header>
+
+    <div id="Container">
+        <div id="BuscarAluno">
+            <h3>ALUNO</h3>
+            <div id="juntinho">
+                <input type="text" class="placeholderCentral" placeholder="Digite o RA do aluno">
+                <button class="carregamento">CARREGAR DADOS</button>
+                <button class="carregamento">BUSCAR TURMA</button>
+            </div>
+        </div>
+        
+
+        <div id="geral">
+            <div id="informacoes">
+                    <div class="info">
+                        <p>NOME</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+                     <div class="info">
+                        <p>CURSO</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+                     <div class="info">
+                        <p>TURNO</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+                     <div class="info">
+                        <p>CURRÍCULO</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+                     <div class="info">
+                        <p>TURMA</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+                     <div class="info">
+                        <p>SÉRIE</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+                     <div class="info">
+                        <p>Nº DE CHAMADA</p>
+                        <input type="text" class="placeholder" placeholder="">
+                    </div>
+            </div>
+        </div>
+        <div>
+            <div class="PrimeiraParte">
+
+                <button class="buscar">AGENDA</button>
+                <button class="buscar">CONEXÕES/E-MAILS</button>
+                <button class="buscarEscolhido">DADOS PESSOAIS</button>
+                <button class="buscar"> DISCIPLINAS</button>
+                <button class="buscar"> NOTAS E FALTAS</button>
+                    <button class="buscar"> REMATRÍCULA</button>
+            </div>
+            <div class="SegundaParte">
+                    <button class="buscar"> DOCUMENTOS </button>
+                <button class="buscar"> ESTÁGIO</button>
+                <button class="buscar"> FICHA INFORMATIVA</button>
+                <button class="buscar"> FINANCEIRO</button>
+                <button class="buscar"> STATUS</button>
+                <button class="buscar"> TURMAS</button>
+            </div>
+        </div>
+    </div>
+    <div id="containerPrincipal">
+        <h4> DADOS PESSOAIS</h4>
+        <div class="master">
+            <div class="blocos">
+                <p>Nome</p>
+                <input type="text" class="placeholderDados" placeholder="">
+            </div>
+            <div class="blocos">
+                <p>Sexo</p>
+                <select id="dropdownlist"></select>
+            </div>
+                        <div class="blocos">
+                <p>Data de Nasc.</p>
+                <input type="text" class="placeholderDados" placeholder="">
+            </div>
+                        <div class="blocos">
+                <p>Município Nasc.</p>
+                <input type="text" class="placeholderDados" placeholder="">
+            </div>
+                        <div class="blocos">
+                <p>E-mail</p>
+                <input type="text" class="placeholderDados" placeholder="">
+            </div>
+                        <div class="blocosmod">
+                <p>Celular</p>
+                <input type="number" class="placeholderDDD" placeholder="DDD">
+                <input type="number" class="placeholderDados" placeholder="Celular número">
+            </div>
+                        <div class="blocosmod">
+               <p>Telefone</p>
+                <input type="number" class="placeholderDDD" placeholder="DDD">
+                <input type="number" class="placeholderDados" placeholder="Residencial número">
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

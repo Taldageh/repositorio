@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    top: 0;
+    z-index: 3;
+
+}
+
+.navbar {
+    background-color: #105297;
+    padding: 10px;
+    display: flex;
+    width: 99%;
+    align-items: start;
+    height: 40px;
+    border: none;
+    margin: 0;
+    
+}
+
+.navbar h3 {
+    margin: 0;
+    color: white;
+}
+
+.navbar img {
+    margin-right: 10px;
+    color: white;
+    height: 20px;
+}

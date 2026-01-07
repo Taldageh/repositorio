@@ -1,0 +1,43 @@
+#BuscarAluno {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 770px;
+}
+
+.carregamento {
+    background-color: #0b53b8;
+    border: none;
+    box-shadow: rgba(253, 253, 253, 0.384) 0px 6px 90px, rgba(199, 191, 191, 0.253) 0px -12px 30px, rgba(238, 226, 226, 0.171) 0px 4px 6px, rgba(221, 220, 220, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 2px;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+}
+.carregamento:hover {
+    background-color: #195596;
+}
+
+.placeholderCentral {
+    border-color: #1b89ff;
+    border-radius: 8px;
+    padding: 8px;
+    width: 500px;
+    border: 3px solid #0230ff;
+}
+
+#BuscarAluno h3 {
+    margin: 0;
+    color: #000000;
+    margin-right: 770px;
+}
+
+#juntinho {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
